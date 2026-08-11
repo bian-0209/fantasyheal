@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- DOCTYPE=document type -->
+
+<html lang="en"> 
+<!-- lang="zh-TW" -->
+
+<head>
+	<title>臥龍夢</title>
+	<meta charset="utf-8"></meta>
+	<style>
+	
+	body {    background-image:url('bgimg.jpg');
+	          background-repeat:no-repeat;
+			  background-size:cover;
+		      background-attachment:fixed;
+		}
+		
+	header{
+		    display:block;
+			background-color:powderblue;
+			text-align:center;
+		}
+	</style>
+</head>
+
+<body>
+    <header>
+	    <h1><b style="color:purple;font-family:DFkai-SB">臥龍夢</b></h1>
+	</header>
+	
+	<div class="chapter-list">
+	<a href="novel0101.html" class="chapter-btn">楔子 願望成真</a>
+	<a href="novel0102.html" class="chapter-btn">第一回 初來乍到 品茶對弈</a>
+	<div class="chapter-btn">第二回 入境隨俗 義結金蘭</div>
+	<div class="chapter-btn">第三回 苦留元直 迴避玄德</div>
+	<div class="chapter-btn">第四回 寺中收徒 夫人懷孕</div>
+	<div class="chapter-btn">第五回 隆中決策 星夜談話</div>
+	<div class="chapter-btn">第六回 博望用兵 火燒新野</div>
+	<div class="chapter-btn">第七回 攜民渡江 拔劍出鞘</div>
+	<div class="chapter-btn">第八回 會晤周郎 舌戰群儒</div>
+	<div class="chapter-btn">第九回 借箭失利 易容獻計</div>
+	<div class="chapter-btn">第十回 巧借東風 誤算華容</div>
+	<div class="chapter-btn">第十一回 大戰益州 力抗冢虎</div>
+	<div class="chapter-btn">第十二回 決戰漢中 玄德進位</div>
+	<div class="chapter-btn">第十三回 重返荊州 弔喪江東</div>
+	<div class="chapter-btn">第十四回 劉備發兵 君臣永隔</div>
+	<div class="chapter-btn">第十五回 北伐中原 惜敗退兵</div>
+	<div class="chapter-btn">第十六回 仲達施計 孔明飲恨</div>
+	<div class="chapter-btn">第十七回 攻破許都 營救天子</div>
+	<div class="chapter-btn">第十八回 夙願終成 辭官歸鄉</div>
+	<div class="chapter-btn">尾聲</div>
+</div>
+
+<style>
+	/* 外層容器：垂直排列置中 */
+	.chapter-list {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 12px; /* 按鈕間距，取代 <br> */
+		font-family: DFKai-SB, "標楷體", sans-serif;
+	}
+
+	/* 章節按鈕鮮明樣式 */
+	.chapter-btn {
+		display: inline-block;
+		padding: 10px 24px;
+		background-color: #ff6b4a; /* 鮮豔珊瑚橙 */
+		color: #ffffff; /* 純白大字 */
+		font-size: 1.2rem;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none;
+		border: 2px solid #e05333;
+		border-radius: 8px;
+		box-shadow: 0 4px 10px rgba(255, 107, 74, 0.3); /* 彩色光澤陰影 */
+		transition: all 0.2s ease-in-out;
+		min-width: 320px; /* 因章節字數較長，稍微加大最小寬度 */
+		max-width: 90%;
+		box-sizing: border-box;
+	}
+
+	/* 滑鼠懸停（Hover）互動效果 */
+	.chapter-btn:hover {
+		background-color: #ffb703; /* 懸停切換為亮金黃色 */
+		border-color: #fb8500;
+		color: #1d3557;
+		transform: translateY(-3px);
+		box-shadow: 0 6px 14px rgba(251, 133, 0, 0.4);
+		cursor: pointer;
+	}
+</style>
+</body>
